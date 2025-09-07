@@ -112,8 +112,7 @@ export default function Portfolio() {
               <Image src="/images/ramy-profile.png" alt="Ramy Mgaidi" fill className="object-cover" />
             </div>
             <div>
-              <h1 className="text-lg font-semibold">Ramy Mgaidi</h1>
-              <p className="text-sm text-muted-foreground">Freshly Graduated Cloud Engineer</p>
+             
             </div>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
