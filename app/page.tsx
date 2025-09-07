@@ -105,20 +105,12 @@ export default function Portfolio() {
 
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center" style={{ justifyContent: 'center' }}>
-          <nav className="flex items-center space-x-6" style={{ marginLeft: 'auto', marginRight: 'auto', width: 'fit-content' }}>
-            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
-              About
-            </a>
-            <a href="#experience" className="text-sm font-medium hover:text-primary transition-colors">
-              Experience
-            </a>
-            <a href="#projects" className="text-sm font-medium hover:text-primary transition-colors">
-              Projects
-            </a>
-            <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
-              Contact
-            </a>
+        <div className="flex justify-center items-center h-16 w-full">
+          <nav className="flex space-x-8 text-lg font-medium">
+            <a href="#about" className="hover:text-blue-500 transition">About</a>
+            <a href="#experience" className="hover:text-blue-500 transition">Experience</a>
+            <a href="#projects" className="hover:text-blue-500 transition">Projects</a>
+            <a href="#contact" className="hover:text-blue-500 transition">Contact</a>
           </nav>
         </div>
       </header>
@@ -147,7 +139,7 @@ export default function Portfolio() {
               </Button>
             </a>
             <a
-              href="/.public/RamyMgaidiCV_ANG.pdf"
+              href="/RamyMgaidiCV_ANG.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -156,18 +148,19 @@ export default function Portfolio() {
                 View Resume
               </Button>
             </a>
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
-            <div className="flex items-center gap-2">
-              <Phone className="w-4 h-4" />
-              +216 27086763
-            </div>
-            <div className="flex items-center gap-2">
-              <Mail className="w-4 h-4" />
-              ramy.mgaidi@gmail.com
-            </div>
-            <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4" />
-              Tunisia
+            <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <Phone className="w-4 h-4" />
+                +216 27086763
+              </div>
+              <div className="flex items-center gap-2">
+                <Mail className="w-4 h-4" />
+                ramy.mgaidi@gmail.com
+              </div>
+              <div className="flex items-center gap-2">
+                <MapPin className="w-4 h-4" />
+                Tunisia
+              </div>
             </div>
           </div>
         </div>
