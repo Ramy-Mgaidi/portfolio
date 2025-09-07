@@ -267,7 +267,7 @@ export default function Portfolio() {
                 <div className="flex items-center justify-center gap-2 mt-4">
                   <Award className="w-4 h-4 text-primary" />
                   <a
-                    href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/"
+                    href="https://learn.microsoft.com/api/credentials/share/en-us/ramymgaidi-4121/FC0BB17AF17BF46D?sharingId=222A56239CCA2F59"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm font-medium hover:text-primary transition-colors flex items-center gap-1"
@@ -392,12 +392,16 @@ export default function Portfolio() {
             </Button>
           </div>
           <div className="flex justify-center gap-6">
-            <Button variant="ghost" size="icon" className="hover:text-primary">
-              <Linkedin className="w-5 h-5" />
-            </Button>
-            <Button variant="ghost" size="icon" className="hover:text-primary">
-              <Github className="w-5 h-5" />
-            </Button>
+            <a href="https://www.linkedin.com/in/ramy-mgaidi-915940381/" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="icon" className="hover:text-primary">
+                <Linkedin className="w-5 h-5" />
+              </Button>
+            </a>
+            <a href="https://github.com/Ramy-Mgaidi" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="icon" className="hover:text-primary">
+                <Github className="w-5 h-5" />
+              </Button>
+            </a>
           </div>
         </div>
       </section>
