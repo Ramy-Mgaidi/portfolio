@@ -156,11 +156,6 @@ export default function Portfolio() {
                 View Resume
               </Button>
             </a>
-            <Button variant="outline" size="lg" className="gap-2 bg-transparent">
-              <Phone className="w-4 h-4" />
-              +216 27086763
-            </Button>
-          </div>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4" />
