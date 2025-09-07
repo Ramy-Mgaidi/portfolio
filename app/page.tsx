@@ -147,7 +147,7 @@ export default function Portfolio() {
               </Button>
             </a>
             <a
-              href="/RamyMgaidiCV_ANG.pdf"
+              href="/.public/RamyMgaidiCV_ANG.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
