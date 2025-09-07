@@ -160,9 +160,8 @@ export default function Portfolio() {
               href="/RamyMgaidiCV_ANG.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ width: '100%' }}
             >
-              <Button variant="outline" size="lg" className="gap-2 bg-transparent w-full">
+              <Button variant="outline" size="lg" className="gap-2 bg-transparent">
                 <ExternalLink className="w-4 h-4" />
                 View Resume
               </Button>
