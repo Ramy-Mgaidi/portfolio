@@ -105,17 +105,8 @@ export default function Portfolio() {
 
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center space-x-4">
-            {/* Making header photo bigger */}
-            <div className="relative w-16 h-16 rounded-full overflow-hidden">
-              <Image src="/images/ramy-profile.png" alt="Ramy Mgaidi" fill className="object-cover" />
-            </div>
-            <div>
-             
-            </div>
-          </div>
-          <nav className="hidden md:flex items-center space-x-6">
+        <div className="container flex h-16 items-center justify-center">
+          <nav className="flex items-center space-x-6">
             <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
               About
             </a>
