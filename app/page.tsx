@@ -147,7 +147,7 @@ export default function Portfolio() {
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a
-              href="mailto:ramy.mgaidi@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ramy.mgaidi@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
