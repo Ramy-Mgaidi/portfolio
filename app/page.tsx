@@ -374,7 +374,7 @@ export default function Portfolio() {
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <Button size="lg" className="gap-2">
               <Mail className="w-4 h-4" />
-              mgaidiramy@gmail.com
+              ramy.mgaidi@gmail.com
             </Button>
             <Button variant="outline" size="lg" className="gap-2 bg-transparent">
               <Phone className="w-4 h-4" />
