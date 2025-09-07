@@ -146,14 +146,26 @@ export default function Portfolio() {
             Kubernetes, and cloud-native solutions.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
-            <Button size="lg" className="gap-2">
-              <Mail className="w-4 h-4" />
-              Get In Touch
-            </Button>
-            <Button variant="outline" size="lg" className="gap-2 bg-transparent">
-              <ExternalLink className="w-4 h-4" />
-              View Resume
-            </Button>
+            <a
+              href="mailto:ramy.mgaidi@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button size="lg" className="gap-2">
+                <Mail className="w-4 h-4" />
+                Get In Touch
+              </Button>
+            </a>
+            <a
+              href="/RamyMgaidiCV_ANG.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="lg" className="gap-2 bg-transparent">
+                <ExternalLink className="w-4 h-4" />
+                View Resume
+              </Button>
+            </a>
           </div>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
@@ -162,7 +174,7 @@ export default function Portfolio() {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4" />
-              mgaidiramy@gmail.com
+              ramy.mgaidi@gmail.com
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
@@ -206,7 +218,7 @@ export default function Portfolio() {
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Arabic (Native)</Badge>
                   <Badge variant="secondary">French (B2)</Badge>
-                  <Badge variant="secondary">English (B2)</Badge>
+                  <Badge variant="secondary">English (C1)</Badge>
                 </div>
               </div>
               <div>
