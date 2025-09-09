@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Ramy Mgaidi - Portfolio',
   description: 'Created with v0',
   generator: 'v0.app',
+    icons: {
+    icon: '/favicon.ico', // or '/favicon.png'
+  },
 }
 
 export default function RootLayout({
