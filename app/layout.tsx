@@ -8,9 +8,6 @@ export const metadata: Metadata = {
   title: 'Ramy Mgaidi - Portfolio',
   description: 'Created with v0',
   generator: 'v0.app',
-    icons: {
-    icon: '/favicon.ico', // or '/favicon.png'
-  },
 }
 
 export default function RootLayout({
@@ -20,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/cloud-icon.png" type="image/png" />
+      </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
         <Analytics />
